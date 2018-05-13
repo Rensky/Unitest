@@ -1,14 +1,5 @@
-/node_modules
-/test/js
-/test/browsertest/js
-/test/fixtures/temp-cache-fixture
-/benchmark/js
-/benchmark/fixtures
-/examples/**/dist
-/coverage
-.DS_Store
-*.log
-.idea
-.vscode
-.eslintcache
-package-lock.json
+unit_1/.idea   　　　　                   //忽略.idea文檔夾和下面的文檔
+unit_1/node_modules  　　            //忽略node_modules安裝依賴文檔
+unit_1/*.log  　　                         //忽略錯誤文檔
+unit_1/dist  　　　　        　　　　  //忽略項目打包輸出文檔
+unit_1/webpack.config.babel.js      //忽略webpack配置文檔
